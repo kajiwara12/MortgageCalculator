@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MortgageCalculator\MortgageCalculator.csproj" />
+    <ProjectReference Include="..\MortgageCalculatorLibrary\MortgageCalculator.csproj" />
   </ItemGroup>
 
   <ItemGroup>

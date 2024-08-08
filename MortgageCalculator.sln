@@ -5,11 +5,11 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MortgageCalcLibrary", "MortgageCalcLibrary", "{8FA36677-E42A-4E16-B5AF-24E8DA61503A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MortgageCalculator", "MortgageCalculator\MortgageCalculator.csproj", "{5C5BEB60-A06C-483C-9293-3AC71E62107B}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MortgageCalculatorTests", "MortgageCalculatorTests\MortgageCalculatorTests.csproj", "{00936BD5-12E5-495A-9CDE-D516286BB8CD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OkamiMortgageConsole", "OkamiMortgageConsole\OkamiMortgageConsole.csproj", "{F98D2428-ABF2-45DD-BD87-2346F1BB6AD5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MortgageCalculator", "MortgageCalculatorLibrary\MortgageCalculator.csproj", "{5C4B29CD-E2AF-4431-A436-96879D36CB09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5C5BEB60-A06C-483C-9293-3AC71E62107B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5C5BEB60-A06C-483C-9293-3AC71E62107B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5C5BEB60-A06C-483C-9293-3AC71E62107B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5C5BEB60-A06C-483C-9293-3AC71E62107B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{00936BD5-12E5-495A-9CDE-D516286BB8CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{00936BD5-12E5-495A-9CDE-D516286BB8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00936BD5-12E5-495A-9CDE-D516286BB8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -29,14 +25,18 @@ Global
 		{F98D2428-ABF2-45DD-BD87-2346F1BB6AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F98D2428-ABF2-45DD-BD87-2346F1BB6AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F98D2428-ABF2-45DD-BD87-2346F1BB6AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C4B29CD-E2AF-4431-A436-96879D36CB09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C4B29CD-E2AF-4431-A436-96879D36CB09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C4B29CD-E2AF-4431-A436-96879D36CB09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C4B29CD-E2AF-4431-A436-96879D36CB09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{5C5BEB60-A06C-483C-9293-3AC71E62107B} = {8FA36677-E42A-4E16-B5AF-24E8DA61503A}
 		{00936BD5-12E5-495A-9CDE-D516286BB8CD} = {8FA36677-E42A-4E16-B5AF-24E8DA61503A}
 		{F98D2428-ABF2-45DD-BD87-2346F1BB6AD5} = {8FA36677-E42A-4E16-B5AF-24E8DA61503A}
+		{5C4B29CD-E2AF-4431-A436-96879D36CB09} = {8FA36677-E42A-4E16-B5AF-24E8DA61503A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E7BAEEAF-7923-4EA4-8013-07B04A2CC108}
